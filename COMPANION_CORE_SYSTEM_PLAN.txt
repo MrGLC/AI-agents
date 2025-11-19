@@ -1,0 +1,23 @@
+COMPANION CORE SYSTEM - REFINED PLAN
+
+ARCHITECTURE
+The Companion Core System operates as a unified framework with four integrated modules: Companion Orchestrator (central controller), User Profile Manager (persistent data layer), Conversation Flow Designer (interaction templates), and Personality Consistency Engine (character maintenance).
+
+MODULE INTERACTIONS
+The Orchestrator acts as the central hub, receiving user inputs and routing them to appropriate modules. It queries the User Profile Manager for contextual data, retrieves conversation templates from the Flow Designer based on interaction mode, and enforces personality guidelines through the Consistency Engine.
+
+DATA FLOW PIPELINE
+1. User input enters Orchestrator
+2. Orchestrator retrieves user profile (preferences, history, identity)
+3. Flow Designer provides mode-specific conversation templates
+4. Personality Engine applies character traits and response validation
+5. Orchestrator synthesizes integrated response
+6. System updates user profile with new interaction data
+
+INTEGRATION POINTS
+- User Profile Manager maintains bidirectional communication with Orchestrator for real-time context
+- Conversation Flow Designer adapts templates dynamically based on user context and history
+- Personality Engine validates all outputs for character consistency before delivery
+- Feedback loops enable continuous personalization and learning
+
+This architecture ensures coherent, contextually-aware interactions while maintaining scalability and deep user customization.
